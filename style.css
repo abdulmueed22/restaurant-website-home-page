@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+header>img {
+    display: block;
+    height: 20%;
+    width: 20%;
+    margin: auto;
+    padding-right: 22px;
+}
+
+nav ul {
+    height: 45px;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 121);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer div {
+    flex: 1;
+}
+
+#copyright {
+    padding-top: 17px;
+    padding-left: 630px;
+}
+
+footer div img {
+    width: 175px;
+    height: 50px;
+}
+
+.a-class {
+    background-color: rgb(255, 255, 198);
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#logo {
+    padding-left: 54px;
+}
+
+#a-1 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 198);
+    color: black;
+}
+
+#a-2 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+#a-3 {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+
+}
+
+#a-4 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+
+}
+
+.imgs{
+    height: 200px;
+    width: 250px;
+}
+
+#img-2{
+    width: 1210px;
+    height: 300px;
+}
